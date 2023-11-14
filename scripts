@@ -1,0 +1,4 @@
+export MAVEN_HOME=/Applications/apache-maven-3.9.5
+export M2_HOME=$MAVEN_HOME/bin
+export MAVEN_OPTS="-Xms256m -Xms512m"
+export PATH=$M2_HOME:$PATH
